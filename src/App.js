@@ -6,6 +6,7 @@ import Header from './MyComponents/Header';
 
 import './App.css';
 import Rating from './MyComponents/Rating';
+import ReviewCard from './MyComponents/ReviewCard';
 
 
 
@@ -13,8 +14,9 @@ function App() {
   return (
     <>
       <Header/>
+      <ReviewCard />
       <Rating />
-   
+
     </>
   );
 
